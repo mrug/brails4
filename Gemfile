@@ -38,11 +38,14 @@ gem "haml-rails"
 gem "erb2haml", :group => :development
 
 group :development, :test do
+  gem "pry-rails"
   gem 'mongoid-rspec'
   gem "rspec-rails", ">= 2.0.1"
   gem "factory_girl_rails", "~> 4.0"
   gem 'faker'
   gem 'capybara'
+  gem "quiet_assets"
+  gem "thin"
 end
 
 group :test do

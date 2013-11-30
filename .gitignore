@@ -12,6 +12,7 @@
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
+/db/mongo/*
 /tmp
 /doc/id_rsa*
 #Ignore files by created Edit+ editer
